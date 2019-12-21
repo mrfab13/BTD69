@@ -32,7 +32,5 @@ public class bg : MonoBehaviour
 
         GetComponent<Image>().color = new Color(r, g, b, 0.5f);
 
-        //this.GetComponent<Camera>().clearFlags = CameraClearFlags.Color;
-        //this.GetComponent<Camera>().backgroundColor = new Color(r, g, b, 0.5f);
     }
 }
